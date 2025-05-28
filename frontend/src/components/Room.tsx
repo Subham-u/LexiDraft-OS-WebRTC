@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { io } from "socket.io-client";
 
-const URL = "http://localhost:3000";
+const URL = "https://lexidraft-os-webrtc.onrender.com";
 
 export const Room = ({
     name,
